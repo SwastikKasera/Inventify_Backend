@@ -18,7 +18,7 @@ app.use('/p', purchaseRouter)
 app.use('/s', saleRouter)
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/Inventory")
+  .connect("mongodb+srv://swastikkaserablog:Ka$era123@inventify.4icyy1n.mongodb.net/")
   .then(() => {
     console.log("Database Connected");
   })
